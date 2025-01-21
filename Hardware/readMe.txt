@@ -24,5 +24,4 @@ Parts - Battery unit
 Voltage booster: https://www.adafruit.com/product/4654
 Battery: 3.7 li-ion (36 x 17 x 6.5mm)
 Charger: see included kicad project, based on https://www.adafruit.com/product/2124
-
 USB micro Cable: any with diameter ~4mm.
