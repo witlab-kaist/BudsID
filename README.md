@@ -1,30 +1,29 @@
 # BudsID
 
+BudsID: Mobile-Ready and Expressive Finger Identification Input for Earbuds.     
+Jiwan Kim, Mingyu Han, and Ian Oakley    
+[DOI]() | [Video]()    
+
 ## About
 ![BudsID](BudsID.png)
 This open-source provides software, hardware, and classifier for BudsID.
-BudsID has been published at CHI 2025, and more details about our work can be found below.
-
-BudsID: Mobile-Ready and Expressive Finger Identification Input for Earbuds. 
-Jiwan Kim, Mingyu Han, and Ian Oakley
-[DOI]() | [Video]()
 
 ## Software
-
-Software/
-├── Arduino_LSM9DS1.zip
-├── Arduino_TensorFlowLite.zip 
-├── nanoBuds_v4/
-│   ├── model.h 
-│   ├── nanoBuds_v4.ino 
-│   ├── src/
-│   │   ├── CapacitiveSensor/
-├── nanoBudsBLE_v5/
-│   ├── index.html
-│   ├── nanoBudsBLE_v5.js
-│   └── libraries/ 
-└── readMe.txt
-
+```
+Software/    
+├── Arduino_LSM9DS1.zip    
+├── Arduino_TensorFlowLite.zip     
+├── nanoBuds_v4/    
+│   ├── model.h     
+│   ├── nanoBuds_v4.ino     
+│   ├── src/    
+│   │   ├── CapacitiveSensor/    
+├── nanoBudsBLE_v5/    
+│   ├── index.html    
+│   ├── nanoBudsBLE_v5.js    
+│   └── libraries/    
+└── readMe.txt    
+```
 - Arduino_LSM9DS1.zip: This archive contains external libraries required for achieving a higher magnetometer sampling rate.
 - Arduino_TensorFlowLite.zip: Libraries to enable tinyML on microcontollers
 - nanoBuds_v4/:
@@ -37,7 +36,7 @@ Software/
 - Data preprocessing and classifier code will be shared with github repository with publication of this work.
 
 ## Hardware
-Components:    
+#### Components:    
 Parts - Sensor unit   
 > https://store-usa.arduino.cc/products/arduino-nano-33-ble-sense   
 > Resistors and 7mm x 7mm x 0.7 plated PCB (for electrode):   
@@ -50,7 +49,7 @@ Parts - Battery unit
 
 USB micro Cable: any with diameter ~4mm.   
 
-Assembly Instructions:   
+#### Assembly Instructions:   
 ```
 1. Create a sensor or battery module for left or right ear using an appopriate base and top part. 
 (sensorBaseLeft.stl plus sensorTop.stl are for a left sensor earbud, powerBaseRight.stl plus powerTop.stl are for a right power earbud).   
@@ -63,7 +62,7 @@ Assembly Instructions:
 
 ## Classifier
 
-
+BudsID_classifier.ipynb file illustrate preprocessing and classifier design code.   
 
 ## Contact
 Jiwan Kim: [kjwan4435@gmail.com](mailto:kjwan4435@gmail.com)
