@@ -2,7 +2,7 @@ BudsID Software
 
 * This software materials cover single tap study, and modest changes are required for double-tap implementation.
 
-BudsID/
+Software/
 ├── Arduino_LSM9DS1.zip
 ├── Arduino_TensorFlowLite.zip 
 ├── nanoBuds_v4/

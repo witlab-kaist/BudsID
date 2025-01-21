@@ -1,4 +1,5 @@
 # BudsID
+![BudsID](BudsID.png)    
 
 BudsID: Mobile-Ready and Expressive Finger Identification Input for Earbuds.     
 Jiwan Kim, Mingyu Han, and Ian Oakley    
@@ -6,7 +7,6 @@ CHI '25: Proceedings of the 2025 CHI conference on Human Factors in Computing sy
 [DOI]() | [Video]()    
 
 ## About
-![BudsID](BudsID.png)
 This open-source provides software, hardware, and classifier for BudsID.
 
 ## Software
@@ -61,9 +61,10 @@ USB micro Cable: any with diameter ~4mm.
 6. Push the outerEarStrut into the hole on the earLoop and fit a rubber earbud over it.    
 ```
 
-## Classifier
-
+## Classifier    
 BudsID_classifier.ipynb file illustrate preprocessing and classifier design code.   
 
-## Contact
+## Contact    
 Jiwan Kim: [kjwan4435@gmail.com](mailto:kjwan4435@gmail.com)
+
+## Reference    
