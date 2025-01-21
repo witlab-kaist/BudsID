@@ -2,6 +2,7 @@
 
 BudsID: Mobile-Ready and Expressive Finger Identification Input for Earbuds.     
 Jiwan Kim, Mingyu Han, and Ian Oakley    
+CHI '25: Proceedings of the 2025 CHI conference on Human Factors in Computing systems.    
 [DOI]() | [Video]()    
 
 ## About
